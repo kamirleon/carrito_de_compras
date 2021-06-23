@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Creando mi primer proyecto con React :computer:
 
-You can use the [editor on GitHub](https://github.com/kamirleon/carrito_de_compras/edit/gh-pages/docs/index.md) to maintain and preview the content for your website in Markdown files.
+---
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+Esta app es un carrito de compras creado con la libreria React, guiado por Cursos de programación con código 2021 del programa "JovenesProgramadores". 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Componentes:
 
-```markdown
-Syntax highlighted code block
+* Producto
+* Fichaproducto
+* Navegacion
+* Carro
 
-# Header 1
-## Header 2
-### Header 3
+### Datos 
 
-- Bulleted
-- List
+Para los datos se creó un archivo .json de donde se obtenia la data de cada producto. 
 
-1. Numbered
-2. List
+Para guardar la iformación de la compra, osea cada producto agragdo al carrito, se creo un archivo .json vacio que reciba esta información. 
 
-**Bold** and _Italic_ and `Code` text
+### APP 
 
-[Link](url) and ![Image](src)
-```
+![](https://i.imgur.com/U87c2Je.jpg)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+---
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kamirleon/carrito_de_compras/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![](https://i.imgur.com/fZe9S4A.jpg)
