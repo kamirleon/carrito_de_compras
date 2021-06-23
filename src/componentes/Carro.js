@@ -21,11 +21,11 @@ class Carro extends React.Component {
   sumaTotal() {
     let total = 0;
     let sumTotal = this.state.listaCarrito.map(
-      (listaCarrito) =>{
-        total += parseInt(listaCarrito.precio);
+      (listaCarrito) => {
+        total += parseInt(listaCarrito.precio) * 1000
       }
     )
-    return (total)
+    return(total)
   }
 
   render() {
@@ -46,7 +46,7 @@ class Carro extends React.Component {
           <span class="material-icons">
             shopping_cart
           </span>
-          <Badge color="secondary">{arregloCarrito.length}</Badge>
+          <Badge color="secondary" id="Badge1">{listaCarrito.length}</Badge>
         </Button>
         <Popover target="Popover1" placement="bottom" isOpen={this.state.popoverOpen} toggle={this.toggle}>
           <PopoverHeader>Listado de compras</PopoverHeader>
@@ -65,7 +65,7 @@ class Carro extends React.Component {
               <tfoot>
                 <td>Total: </td>
                 <td></td>
-                <td>{this.sumaTotal()}</td>
+                <td>{Intl.NumberFormat("de-De").format(this.sumaTotal())} CLP</td>
               </tfoot>
             </Table>
           </PopoverBody>

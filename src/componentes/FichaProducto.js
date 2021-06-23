@@ -26,10 +26,18 @@ class FichaProducto extends React.Component {
       "precio": this.props.props.precio
     });
     this.setState(prevState =>({
-      modal: !prevState.modal,
-      stock: prevState.stock -1
+      modal: !prevState.modal
     }));
+    if(this.state.stock !== 0){
+      this.setState(prevState =>({
+        stock: prevState.stock -1
+      }));
+    }else{
+      alert('Stock de producto insuficiente, elige otro de nuestros super Poster')
+    }
 
+    const badge = document.getElementById('Badge1');
+    badge.innerText = listaCarrito.length;
   }
   render() {
     return (

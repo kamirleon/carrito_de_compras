@@ -33,7 +33,7 @@ class App extends React.Component {
     );
   return (
     <Container>
-      <Navegacion titulo="Mi primer sitio de compras en React"/>
+      <Navegacion titulo="Obten aquí tu poster oficial de la saga de magia N°1 del mercado"/>
       <Row>
         {arregloComponentes}
       </Row>
