@@ -1,0 +1,35 @@
+{
+  "listaProductos": [
+    {
+      "titulo": "Poster de harry",
+      "imagen": "https://i1.wp.com/cinefilosoficial.com/wp-content/uploads/2020/07/harry-potter-ficcion.jpg?fit=1200%2C675&ssl=1",
+      "descripcion": "Poster original de la saga de magia.",
+      "precio": "2.000",
+      "stock": "4"
+    },
+    {
+      "titulo": "Poster de Hermione",
+      "imagen": "https://elcomercio.pe/resizer/jW19Fxm04LMC3GtvDNZ2WeZPpTw=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/ABOE4FMMOBBPJCXJ6KTT2QPQEE.jpg",
+      "descripcion": "Poster original de la saga de magia 2.",
+      "precio": "3.000",
+      "stock": "6"
+
+    },
+    {
+      "titulo": "Poster de Snape",
+      "imagen": "https://i.blogs.es/8319cd/snapea/450_1000.jpg",
+      "descripcion": "Poster original de la saga de magia 3.",
+      "precio": "6.000",
+      "stock": "2"
+
+    },
+    {
+      "titulo": "Poster de Snich dorada",
+      "imagen": "http://www.someblogsite.com/images/humor/snitches/snitch-isolated.jpg",
+      "descripcion": "Poster original de la saga de magia 4.",
+      "precio": "10.000",
+      "stock": "8"
+
+    }
+  ]
+}
