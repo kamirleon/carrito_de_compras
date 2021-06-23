@@ -1,4 +1,4 @@
-## Creando mi primer proyecto con ![](https://i.imgur.com/0KaQ2Cg.png)
+## Creando mi primer proyecto con React :computer:
 
 ---
 
